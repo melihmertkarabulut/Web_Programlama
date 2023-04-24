@@ -1,0 +1,23 @@
+.paper{
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-style: solid ;
+    column-rule-width: 1px;
+    column-rule-color: red;
+}
+
+.border{
+    color:white;
+    border: 1px solid red;
+    margin-top: 20px;
+    background-color: red;
+}
+
+.paper2{
+    column-count: 3;
+    column-gap: 30px;
+    column-rule-style: solid ;
+    column-rule-width: 1px;
+    column-rule-color: red;
+    padding-top: 10px;
+}

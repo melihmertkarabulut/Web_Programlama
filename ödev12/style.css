@@ -1,0 +1,55 @@
+.takvim {
+  width: 950px;
+  margin: 50px auto;
+}
+
+.ay {
+  padding: 50px 0;
+  text-align: center;
+  background: #1abc9c;
+  color: #fff;
+}
+
+.ay ul {
+  margin: 0;
+  padding: 0;
+}
+
+.ay ul li {
+  display: inline-block;
+  font-size: 50px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.hafta {
+  margin: 0 ;
+  padding: 10px;
+  background-color: #ddd;
+}
+
+.hafta li {
+  display: inline-block; 
+  font-size: 20px;
+  color: #666;
+  width: 120px;
+  text-align: center;
+}
+
+.gunler {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+}
+
+.gunler li {
+  display: inline-block;
+  margin: 40px;
+  width: 40px;
+  height: 40px;
+  text-align: right;
+}
+
+.bugun {
+  background-color: #1abc9c;
+}
