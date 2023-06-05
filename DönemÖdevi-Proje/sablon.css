@@ -1,0 +1,83 @@
+.menu{
+    background-color: #1A4149;
+}
+
+::-webkit-scrollbar {
+    background:gray;
+    width: 10px;
+    height: 0px;
+}
+
+::-webkit-scrollbar-corner{
+    background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+    background: cornflowerblue;
+    border-radius: 6px;
+}
+
+#title{
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 127.5%;
+    color: white;
+    margin-right:1px;
+}
+
+.navbar-nav{
+    text-align: center;
+    padding-right: 39%;
+}
+
+
+.nav-item{
+    margin-right: 5px;
+    padding-right: 30px;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.navbar-nav li a {
+    color: white;
+} 
+
+.icon{
+    height: 66px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#footer{
+    margin-top: 500px;
+}
+
+#telif{
+    font-family:'Oswald', sans-serif;
+    color: #ffffff;
+}
+
+#animation{
+    position: relative;
+    animation-name: example;
+    animation-duration: 15s;
+    animation-delay: 2s;
+}
+
+@keyframes example {
+    0%   {left:0px; top:0px;}
+    25%  {left:200px; top:0px;}
+    25%  {left:400px; top:0px;}
+    25%  {left:600px; top:0px;}
+    25%  {left:800px; top:0px;}
+    25%  {left:1000px; top:0px;}
+    25%  {left:1200px; top:0px;}
+    25%  {left:1400px; top:0px;}
+    25%  {left:1600px; top:0px;}
+    25%  {left:1800px; top:0px;}
+    25%  {left:2000px; top:0px;}
+    75%  {left:0px; top:0px;}
+}
